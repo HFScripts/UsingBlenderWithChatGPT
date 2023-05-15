@@ -28,6 +28,7 @@ commands = [
     f'"{python_executable}" -m pip install --target "{site_packages_path}" openai',
     f'"{python_executable}" -m pip install --target "{site_packages_path}" gtts',
     f'"{python_executable}" -m pip install --target "{site_packages_path}" pydub',
+    f'"{python_executable}" -m pip install --target "{site_packages_path}" mutagen',
 ]
 
 for command in commands:
